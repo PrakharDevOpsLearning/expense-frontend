@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Code Checkout
         uses: actions/checkout@v4
-      - run: echo OK
+      - run: echo yes
         name: Code Build
       - run: echo yes
         name: Code Test
